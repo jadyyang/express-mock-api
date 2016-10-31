@@ -79,3 +79,7 @@ paths是一个map对象，键名为匹配Url的规则，键值为匹配成功后
 * mock文件夹为 {ProjectRoot}/mock
 * mock配置文件为 {ProjectRoot}/mock/mock.config.js
 * 假定需要mock的一个接口为 /need/mock/me.do，那么对应的mock文件应为：{ProjectRoot}/mock/need/mock/me.do
+
+## 其他
+
+如果是需要一个运行在本机的Server，建议使用 [generator-devserver](https://www.npmjs.com/package/generator-devserver) 而非直接使用本包
