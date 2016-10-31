@@ -1,0 +1,22 @@
+{
+  "name": "express-mock-api",
+  "version": "1.1.0",
+  "description": "简单、强大的mock请求的express插件",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mock",
+    "api",
+    "ajax",
+    "response"
+  ],
+  "author": "Jady Yang",
+  "license": "ISC",
+  "dependencies": {
+    "node-watch": "^0.4.0",
+    "path-to-regexp": "^1.5.3"
+  }
+}
